@@ -1,6 +1,6 @@
 package Models;
 
-public class mdl_Cliente {
+public class Cliente {
 
     private String name = "";
     private String lastName = "";
@@ -15,7 +15,7 @@ public class mdl_Cliente {
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
 
-    public mdl_Cliente(String name, String lastName, String number) {
+    public Cliente(String name, String lastName, String number) {
         this.name = name;
         this.lastName = lastName;
         this.number = number;
